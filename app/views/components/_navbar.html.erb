@@ -1,29 +1,48 @@
-  <div class="side-navbar">
-    <div style="text-align: center;">
-      <%= image_tag 'consulate-logo.png', class: "consulate-logo" %>
-    </div>
-    <div>
-      <ul class="no-bullets links">
-        <li><p class="link active">HOME</p></li>
-        <li><p class="link">STAFF</p></li>
-        <li><p class="link">EMERGENCIES</p></li>
-        <li><p class="link">PASSPORTS</p></li>
-        <li><p class="link">CONTACT</p></li>
-        <li><p class="link">LINKS</p></li>
-      </ul>
-    </div>
-    <div>
-      <ul class="no-bullets contact-details">
-        <li><p>T: +44 (0)141 204 4041</p></li>
-        <li><p>F: +44 (0)141 204 3234</p></li>
-        <li><p>E: consul@swedenglasgow.com</p></li>
-      </ul>
-    </div>
-    <div>
-      <ul class="no-bullets contact-details">
-        <li><p>Consulate of Sweden</p></li>
-        <li><p>185 St Vincent Street</p></li>
-        <li><p>Glasgow, G2 5QD</p></li>
-      </ul>
+<div class="side-navbar hidden-xs">
+  <div style="text-align: center;">
+    <%= image_tag 'consulate-logo.png', class: "consulate-logo" %>
+  </div>
+  <div>
+    <ul class="no-bullets links">
+      <li><p class="link active">HOME</p></li>
+      <li><p class="link">STAFF</p></li>
+      <li><p class="link">EMERGENCIES</p></li>
+      <li><p class="link">PASSPORTS</p></li>
+      <li><p class="link">CONTACT</p></li>
+      <li><p class="link">LINKS</p></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="no-bullets contact-details">
+      <li><p>T: +44 (0)141 204 4041</p></li>
+      <li><p>F: +44 (0)141 204 3234</p></li>
+      <!-- <li><p>E: consul@swedenglasgow.com</p></li> -->
+      <li><a href="mailto:consul@swedenglasgow.com" class="">E:&nbspconsul@swedenglasgow.com</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="no-bullets contact-details">
+      <li><p>Consulate of Sweden</p></li>
+      <li><p>185 St Vincent Street</p></li>
+      <li><p>Glasgow, G2 5QD</p></li>
+    </ul>
+  </div>
+</div>
+<div class="visible-xs">
+  <div class="navbar-lewagon">
+    <%= image_tag 'consulate-logo.png', class: "consulate-logo-sm" %>
+    <div class="navbar-lewagon-actions d-block d-sm-none">
+      <div class="dropdown">
+        <i class="fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">HOME</a><br>
+          <a class="dropdown-item" href="#"></i>STAFF</a><br>
+          <a class="dropdown-item" href="#"></i>EMERGENCIES</a><br>
+          <a class="dropdown-item" href="#"></i>PASSPORTS</a><br>
+          <a class="dropdown-item" href="#"></i>LINKS</a>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+

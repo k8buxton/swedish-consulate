@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper hidden-xs">
   <%= render "components/navbar.html" %>
   <div class="container">
     <div class="language">
@@ -12,6 +12,30 @@
       </div>
     </div>
     <div class="container-yellow">
+      <h1>WELCOME!</h1>
+      <p>This is the website of the Swedish Consul in Glasgow.</p>
+      <p>We provide consular services for Swedish nationals who are visitors or temporary residents in Glasgow and south west Scotland. In addition to the city of Glasgow, we cover the Strathclyde region and Dumfries and Galloway.</p>
+      <p>The Honorary Consul in Glasgow is Mr David Hunter. Our Consular Assistant is Ms Mairi Murray.</p>
+      <p>Our office is in the centre of Glasgow and is normally open during business hours (0930–1700) from Monday to Friday.</p>
+      <p>An appointment is necessary.</p>
+    </div>
+  </div>
+</div>
+
+<div class="visible-xs">
+  <%= render "components/navbar.html" %>
+  <div class="container-xs">
+    <div class="container-yellow">
+      <div class="language">
+        <div class="flag-padding-xs">
+          <%= image_tag "swedish-flag.png", class: "flag" %>
+          <p>Svenska</p>
+        </div>
+        <div class="flag-padding-xs">
+          <%= image_tag "british-flag.png", class: "flag" %>
+          <p class="flag-active">English</p>
+        </div>
+      </div>
       <h1>WELCOME!</h1>
       <p>This is the website of the Swedish Consul in Glasgow.</p>
       <p>We provide consular services for Swedish nationals who are visitors or temporary residents in Glasgow and south west Scotland. In addition to the city of Glasgow, we cover the Strathclyde region and Dumfries and Galloway.</p>

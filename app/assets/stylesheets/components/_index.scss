@@ -7,7 +7,18 @@ p {
 }
 
 h1 {
-  font-size: 48px;
   font-weight: bold;
   font-family: 'sweden_sansbold';
+  @media (min-width: 400px) {
+    font-size: 48px;
+}
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
 }

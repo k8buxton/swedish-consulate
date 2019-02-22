@@ -41,6 +41,7 @@
   line-height: 30px;
   margin-bottom: 6px;
   letter-spacing: 1.75px;
+  cursor: pointer;
 }
 .active {
   position:relative;
@@ -54,6 +55,7 @@
   width: 10px;
   bottom: 0;
   left: 0%;
+  transition: all 0.15s ease;
   border-bottom: 1.5px solid white;
 }
 .contact-details {
@@ -64,3 +66,63 @@
   margin: 0px;
   letter-spacing: 1px;
 }
+.contact-details a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: white !important;
+}
+
+
+
+.consulate-logo-sm {
+  width: 175px;
+}
+.navbar-lewagon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2A353E;
+  padding: 16px 40px 16px 24px;
+  height: 150px;
+  color: white;
+}
+.navbar-lewagon .brand {
+  width: 40px;
+}
+.navbar-lewagon .navbar-lewagon-actions {
+  display: flex;
+  align-items: center;
+}
+.navbar-lewagon .navbar-lewagon-actions .navbar-lewagon-link {
+  margin-left: 24px;
+  color: #999999;
+}
+.navbar-lewagon .navbar-lewagon-actions .navbar-lewagon-link:hover {
+  color: #151515;
+}
+.navbar-lewagon .navbar-lewagon-actions .avatar {
+  margin-left: 24px;
+}
+
+.navbar-lewagon .dropdown-toggle {
+  cursor: pointer;
+}
+.navbar-lewagon .dropdown-item {
+  font-family: 'sweden_sansregular';
+  color: black;
+  font-size: 14px;
+}
+.dropdown-menu-right {
+  padding: 10px;
+  background-color: #E6E6E6;
+}
+.navbar-lewagon .dropdown-item:hover {
+  color: #FECC00;
+  text-decoration: none;
+}
+
+
+
+
+
+
