@@ -5,12 +5,26 @@
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Raleway", "Helvetica", "sans-serif";
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+    font-family: 'sweden_sansregular';
+    src: url('config/swedensans-webfont.eot');
+    src: url('config/swedensans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('config/swedensans-webfont.woff2') format('woff2'),
+         url('config/swedensans-webfont.woff') format('woff'),
+         url('config/swedensans-webfont.ttf') format('truetype'),
+         url('config/swedensans-webfont.svg#sweden_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sweden_sansbold';
+    src: url('config/swedensansbold-webfont.eot');
+    src: url('config/swedensansbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('config/swedensansbold-webfont.woff2') format('woff2'),
+         url('config/swedensansbold-webfont.woff') format('woff'),
+         url('config/swedensansbold-webfont.ttf') format('truetype'),
+         url('config/swedensansbold-webfont.svg#sweden_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

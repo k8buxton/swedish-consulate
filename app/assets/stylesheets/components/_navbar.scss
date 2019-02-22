@@ -1,14 +1,15 @@
 @media (min-width: 500px) {
   .side-navbar {
     display: block;
-    flex: 0 0 275px;
+    flex: 0 0 300px;
     height: 100vh;
     position: sticky !important;
     top: 0;
     background-color: #2A353E;
     color: white;
-    padding: 50px;
+    padding: 30px 50px;
     line-height: 20px;
+    font-family: 'sweden_sansregular';
   }
 }
 @media (max-width: 500px) {
@@ -27,7 +28,7 @@
   }
 }
 .consulate-logo {
-  width: 175px;
+  width: 200px;
 }
 .no-bullets {
   list-style:none;
@@ -39,6 +40,7 @@
 .link {
   line-height: 30px;
   margin-bottom: 6px;
+  letter-spacing: 1.75px;
 }
 .active {
   position:relative;
@@ -58,6 +60,7 @@
   margin-top: 20px;
 }
 .contact-details p {
-  font-size: 11px;
+  font-size: 10px;
   margin: 0px;
+  letter-spacing: 1px;
 }
