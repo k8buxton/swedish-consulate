@@ -18,10 +18,10 @@
 .container-yellow {
   background-color: #FECC00;
   @media (min-width: 500px) {
-    padding: 40px;
+    padding: 48px;
   }
   @media (max-width: 500px) {
-    padding: 8px 20px;
+    padding: 8px 24px 24px 20px;
   }
   margin-top: 20px;
   h1 {
@@ -30,6 +30,7 @@
     }
     @media (max-width: 500px) {
       margin: 0px 0px 32px 0px;
+      padding-bottom: 16px;
     }
     position: relative;
   }

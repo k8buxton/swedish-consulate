@@ -1,12 +1,27 @@
 .contact-margin {
-  margin-top: 50px !important;
+  margin-top: 32px !important;
 }
 .address {
   text-align: center;
   padding-top: 40px;
 }
+.address-sm {
+  text-align: center;
+  padding: 16px;
+}
+// #map {
+//   height: 400px;
+//   width: 100%;
+//   margin: 75px 0px 40px 0px;
+//  }
 #map {
-  height: 400px;
-  width: 100%;
-  margin: 75px 0px 40px 0px;
- }
+  height: 550px;
+  width: 80%;
+  margin: 160px 0px 40px 48px;
+}
+
+// #map2 {
+//   height: 300px;
+//   width: 100%;
+//   margin-bottom: 40px;
+//  }

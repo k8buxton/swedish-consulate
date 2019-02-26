@@ -1,9 +1,10 @@
 // Import your components CSS files here.
 @import "alert";
 @import "navbar";
+@import "footer";
 
 p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 25px;
 }
 
@@ -16,7 +17,7 @@ h1 {
     padding-bottom: 16px;
 }
   @media (max-width: 500px) {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 56px;
   }
 }

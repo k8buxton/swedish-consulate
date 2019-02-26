@@ -1,0 +1,56 @@
+.useful-links {
+  display: flex;
+  margin: 16px 0px;
+  p {
+    font-size: 13px;
+    margin-right: 32px;
+    padding-top: 3px;
+    margin-left: 40px;
+  }
+}
+.external-link-size {
+  font-size: 15px;
+}
+.external-link-size-sm {
+  font-size: 13px;
+  line-height: 1px;
+}
+.external-link {
+  color: black;
+  font-family: 'sweden_sansbold';
+  letter-spacing: 1.1px;
+  flex-grow: 1;
+}
+.external-link:hover {
+  color: #095381;
+  text-decoration: underline;
+}
+.external-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.external-link:visited:hover {
+  text-decoration: none;
+  color: #095381;
+}
+.link-style {
+  min-width: 180px;
+  max-width: 180px;
+  margin: 32px 0px 0px 32px;
+}
+
+
+.useful-links-sm {
+  display: flex;
+  margin: 40px 0px;
+  p {
+    font-size: 13px;
+    margin: 0px 0px 0px 16px;
+    line-height: 20px;
+  }
+}
+.link-style-sm {
+  min-width: 90px;
+  max-width: 90px;
+  line-height: 20px;
+}
