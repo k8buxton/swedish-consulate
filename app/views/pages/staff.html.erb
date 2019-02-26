@@ -1,0 +1,63 @@
+<div class="wrapper hidden-xs">
+  <%= render "components/navbar.html" %>
+  <div class="container">
+    <div class="language">
+      <div class="flag-padding">
+        <%= image_tag "swedish-flag.png", class: "flag" %>
+        <p>Svenska</p>
+      </div>
+      <div class="flag-padding">
+        <%= image_tag "british-flag.png", class: "flag" %>
+        <p class="flag-active">English</p>
+      </div>
+    </div>
+    <div class="container-yellow">
+      <h1>CONSULAR STAFF</h1>
+      <div class="staff-member">
+        <div>
+        <%= image_tag "david.png", class: "staff-photo" %>
+        </div>
+        <div class="staff-text">
+          <h2>DAVID HUNTER</h2>
+          <p>David Hunter is the Honorary Swedish Consul in Glasgow. He is a businessman who runs his own company, the international consultancy Hunter Advisers. David has close connections with Sweden. He lives in Glasgow with his wife, who is Swedish, and their two daughters.</p>
+        </div>
+      </div>
+      <div class="staff-member" style="margin-bottom: 64px;">
+        <div>
+        <%= image_tag "mairi.png", class: "staff-photo" %>
+        </div>
+        <div class="staff-text">
+          <h2>MAIRI MURRAY</h2>
+          <p>Mairi Murray is the Consular Assistant to David Hunter. Mairi will normally be the first point of contact for visitors and has links to the Swedish Embassy staff in London.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="visible-xs">
+  <%= render "components/navbar.html" %>
+  <div class="container-xs">
+    <div class="container-yellow">
+      <div class="language">
+        <div class="flag-padding-xs">
+          <%= image_tag "swedish-flag.png", class: "flag" %>
+          <p>Svenska</p>
+        </div>
+        <div class="flag-padding-xs">
+          <%= image_tag "british-flag.png", class: "flag" %>
+          <p class="flag-active">English</p>
+        </div>
+      </div>
+      <h1 style="padding-bottom: 24px; margin-botton: 32px;">CONSULAR STAFF</h1>
+      <h2>DAVID HUNTER</h2>
+      <%= image_tag "david.png", class: "staff-photo-sm" %>
+      <p>David Hunter is the Honorary Swedish Consul in Glasgow. He is a businessman who runs his own company, the international consultancy Hunter Advisers. David has close connections with Sweden. He lives in Glasgow with his wife, who is Swedish, and their two daughters.</p>
+      <h2>MAIRI MURRAY</h2>
+      <%= image_tag "mairi.png", class: "staff-photo-sm" %>
+      <p>Mairi Murray is the Consular Assistant to David Hunter. Mairi will normally be the first point of contact for visitors and has links to the Swedish Embassy staff in London.</p>
+
+    </div>
+  </div>
+</div>

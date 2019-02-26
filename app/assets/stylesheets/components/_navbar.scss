@@ -1,4 +1,16 @@
-@media (min-width: 500px) {
+.current {
+  position:relative;
+}
+.current::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  bottom: -4px;
+  left: 0%;
+  transition: all 0.15s ease;
+  border-bottom: 1.5px solid white;
+}
+  @media (min-width: 500px) {
   .side-navbar {
     display: block;
     flex: 0 0 300px;
@@ -36,6 +48,13 @@
 }
 .links {
   margin: 50px 0px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #FECC00;
+    text-decoration: none;
+  }
 }
 .link {
   line-height: 30px;
@@ -43,21 +62,21 @@
   letter-spacing: 1.75px;
   cursor: pointer;
 }
-.active {
-  position:relative;
-}
+// .active {
+//   position:relative;
+// }
 .link:hover {
   color: #FECC00;
 }
-.active::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  bottom: 0;
-  left: 0%;
-  transition: all 0.15s ease;
-  border-bottom: 1.5px solid white;
-}
+// .active::after {
+//   content: "";
+//   position: absolute;
+//   width: 10px;
+//   bottom: 0;
+//   left: 0%;
+//   transition: all 0.15s ease;
+//   border-bottom: 1.5px solid white;
+// }
 .contact-details {
   margin-top: 20px;
 }
@@ -71,7 +90,6 @@
   letter-spacing: 1px;
   color: white !important;
 }
-
 
 
 .consulate-logo-sm {
