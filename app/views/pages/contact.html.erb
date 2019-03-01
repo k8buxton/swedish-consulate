@@ -27,46 +27,13 @@
           <p class="short-line">F: +44 (0)141 204 3234</p>
           <p class="short-line">E: consul@swedenglasgow.com</p>
           <p class="short-line contact-margin">Opening Hours: By appointment.</p>
-          <p class="short-line">For out-of-hours contact details see <span class="strong-text">Emergencies</span>.</p>
+          <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">emergencies</a>.</p>
         </div>
         <div id="map"></div>
       </div>
     </div>
   </div>
 </div>
-
-<!-- <div class="wrapper hidden-xs">
-  <%= render "components/navbar.html" %>
-  <div class="container">
-    <div class="language">
-      <div class="flag-padding">
-        <%= image_tag "swedish-flag.png", class: "flag" %>
-        <p>Svenska</p>
-      </div>
-      <div class="flag-padding">
-        <%= image_tag "british-flag.png", class: "flag" %>
-        <p class="flag-active">English</p>
-      </div>
-    </div>
-    <div class="container-yellow">
-      <h1>CONTACT</h1>
-      <p class="short-line contact-margin">Consul: Mr David Hunter</p>
-      <p class="short-line">Consular Assistant: Ms Mairi Murray</p>
-      <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
-      <p class="short-line">F: +44 (0)141 204 3234</p>
-      <p class="short-line">E: consul@swedenglasgow.com</p>
-      <p class="short-line contact-margin">Opening Hours: By appointment</p>
-      <p class="short-line">For out-of-hours contact details see <span class="strong-text">Emergencies</span>.</p>
-      <div class="address">
-        <h3>CONSULATE OF SWEDEN</h3>
-        <h3>185 ST VINCENT STREET</h3>
-        <h3>GLASGOW</h3>
-        <h3>G2 5QD</h3>
-      </div>
-      <div id="map"></div>
-    </div>
-  </div>
-</div> -->
 
 <div class="visible-xs">
   <%= render "components/navbar.html" %>
@@ -96,7 +63,6 @@
       <p class="short-line">E: consul@swedenglasgow.com</p>
       <p class="short-line contact-margin">Opening Hours: By appointment.</p>
       <p class="short-line">For out-of-hours contact details see <span class="strong-text">Emergencies</span>.</p>
-      <!-- <div id="map2"></div> -->
     </div>
   </div>
 </div>
@@ -111,8 +77,6 @@ function initMap() {
   // The map, centered at Consulate
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: consulate});
-  // var map2 = new google.maps.Map(
-  //     document.getElementById('map2'), {zoom: 15, center: consulate});
   // The marker, positioned at Consulate
   var marker = new google.maps.Marker({position: consulate, map: map});
 }

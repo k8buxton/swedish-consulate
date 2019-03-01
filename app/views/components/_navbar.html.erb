@@ -33,16 +33,15 @@
     <div class="navbar-lewagon-actions d-block d-sm-none">
       <div class="dropdown">
         <i class="fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-          <a><%= link_to 'HOME', root_path, class: "dropdown-item" %></a><br>
-          <a><%= link_to 'STAFF', staff_path, class: "dropdown-item" %></a><br>
-          <a><%= link_to 'EMERGENCIES', emergencies_path, class: "dropdown-item" %></a><br>
-          <a><%= link_to 'PASSPORTS', passports_path, class: "dropdown-item" %></a><br>
-          <a><%= link_to 'CONTACT', contact_path, class: "dropdown-item" %></a><br>
-          <a><%= link_to 'LINKS', links_path, class: "dropdown-item" %></a><br>
-        </div>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+          <li><%= link_to 'HOME', root_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'STAFF', staff_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'EMERGENCIES', emergencies_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'PASSPORTS', passports_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'CONTACT', contact_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'LINKS', links_path, class: "dropdown-item" %></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
-

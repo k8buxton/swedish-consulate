@@ -125,14 +125,25 @@
 .navbar-lewagon .dropdown-toggle {
   cursor: pointer;
 }
-.navbar-lewagon .dropdown-item {
+.navbar-lewagon li > a {
   font-family: 'sweden_sansregular';
   color: black;
   font-size: 14px;
+  line-height: 36px;
+}
+.navbar-lewagon li:hover {
+  background-color: rgba(255,255,255,0.6);
+}
+.dropdown-menu {
+  padding: 16px 0px;
 }
 .dropdown-menu-right {
-  padding: 10px;
-  background-color: #E6E6E6;
+  background-color: rgba(255,255,255,0.9);
+  min-width: 250px;
+  text-align: center;
+  //Add to make 100% width:
+  // right: -41px;
+  // width: 100vw;
 }
 .navbar-lewagon .dropdown-item:hover {
   color: #FECC00;

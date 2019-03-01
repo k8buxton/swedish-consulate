@@ -1,19 +1,24 @@
 .wrapper {
   display: flex;
 }
-.container {
-  flex-grow: 1;
-}
 .container-xs {
   padding: 20px;
+  background-image: url("sa-country-pattern-storbritannien.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .language {
   display: flex;
   justify-content: flex-end;
 }
 .container {
-  background-color: #E6E6E6;
+  background-image: url(sa-country-pattern-storbritannien.svg);
+  background-size: cover;
+  // remove or add the below, changes where image sits
+  background-attachment: fixed;
   padding: 48px;
+  flex-grow: 1;
 }
 .container-yellow {
   background-color: #FECC00;
@@ -48,7 +53,7 @@
     }
     @media (max-width: 500px) {
       letter-spacing: 1px;
-      font-size: 11px;
+      font-size: 13px;
     }
     margin: 30px 0px;
     // line-height: 25px;
