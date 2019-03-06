@@ -1,0 +1,46 @@
+<div class="side-navbar hidden-xs">
+  <div style="text-align: center;">
+    <%= image_tag 'consulate-logo2.png', class: "consulate-logo" %>
+  </div>
+  <div>
+    <ul class="no-bullets links">
+      <li><p class="link"><%= link_to "STARTSIDA", startsida_path, class: cp(startsida_path) %></p></li>
+      <li><p class="link"><%= link_to "PERSONAL", personal_path, class: cp(personal_path)  %></p></li>
+      <li><p class="link"><%= link_to "NÖDSITUATIONER", nodsituationer_path, class: cp(nodsituationer_path) %></p></li>
+      <li><p class="link"><%= link_to "PASS", pass_path, class: cp(pass_path) %></p></li>
+      <li><p class="link"><%= link_to "KONTAKTA OSS", kontakta_path, class: cp(kontakta_path) %></p></li>
+      <li><p class="link"><%= link_to "LÄNKAR", lankar_path, class: cp(lankar_path) %></p></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="no-bullets-navbar contact-details">
+      <li><p>T: +44 (0)141 204 4041</p></li>
+      <li>E:&nbsp&nbsp<a href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="no-bullets contact-details">
+      <li><p>Sveriges Konsulat</p></li>
+      <li><p>185 St Vincent Street</p></li>
+      <li><p>Glasgow, G2 5QD</p></li>
+    </ul>
+  </div>
+</div>
+<div class="visible-xs">
+  <div class="navbar-lewagon">
+    <%= image_tag 'consulate-logo2.png', class: "consulate-logo-sm" %>
+    <div class="navbar-lewagon-actions d-block d-sm-none">
+      <div class="dropdown">
+        <i class="fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+          <li><%= link_to 'STARTSIDA', root_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'PERSONAL', personal_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'NÖDSITUATIONER', nodsituationer_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'PASS', pass_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'KONTAKTA OSS', kontakta_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'LÄNKAR', lankar_path, class: "dropdown-item" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

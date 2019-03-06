@@ -3,7 +3,7 @@
 }
 .container-xs {
   padding: 20px;
-  background-image: image-url("sa-country-pattern-storbritannien.png");
+  background-image: image-url("storbritannien.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,7 @@
   justify-content: flex-end;
 }
 .container {
-  background-image: image-url("sa-country-pattern-storbritannien.png");
+  background-image: image-url("storbritannien.png");
   background-size: cover;
   // remove or add the below, changes where image sits
   background-attachment: fixed;
@@ -88,6 +88,15 @@
     cursor: pointer;
   }
 }
+.flag-text {
+  color: #333333;
+}
 .flag-active {
   text-decoration: underline;
+}
+.flag-padding:hover .flag-text {
+  color: #095381;
+}
+.flag-padding-xs:hover .flag-text {
+  color: #095381;
 }

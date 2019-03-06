@@ -42,9 +42,15 @@
 .consulate-logo {
   width: 200px;
 }
+.no-bullets-navbar {
+  list-style:none;
+  padding: 0px;
+  font-size: 10px;
+}
 .no-bullets {
   list-style:none;
   padding: 0px;
+  font-size: 12px;
 }
 .links {
   margin: 50px 0px;
@@ -93,7 +99,7 @@
 
 
 .consulate-logo-sm {
-  width: 175px;
+  width: 200px;
 }
 .navbar-lewagon {
   display: flex;
@@ -101,7 +107,7 @@
   justify-content: space-between;
   background-color: #2A353E;
   padding: 16px 40px 16px 24px;
-  height: 150px;
+  height: 175px;
   color: white;
 }
 .navbar-lewagon .brand {
@@ -133,6 +139,12 @@
 }
 .navbar-lewagon li:hover {
   background-color: rgba(255,255,255,0.6);
+}
+.dropdown {
+  font-size: 24px;
+}
+.dropdown:hover {
+  cursor: pointer;
 }
 .dropdown-menu {
   padding: 16px 0px;

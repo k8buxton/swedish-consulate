@@ -1,0 +1,17 @@
+<div id="map"></div>
+
+<script>
+function initMap() {
+  // The location of the Swedish Consulate
+  var consulate = {lat: 55.861935, lng: -4.261919};
+  // The map, centered at Consulate
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: consulate});
+  // The marker, positioned at Consulate
+  var marker = new google.maps.Marker({position: consulate, map: map});
+}
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdKZB786hpnvyDrm8wKfxLUs4W6ouUwxw&callback=initMap">
+</script>

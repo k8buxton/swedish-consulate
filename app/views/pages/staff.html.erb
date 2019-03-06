@@ -2,14 +2,14 @@
   <%= render "components/navbar.html" %>
   <div class="container">
     <div class="language">
-      <div class="flag-padding">
-        <%= image_tag "swedish-flag.png", class: "flag" %>
-        <p>Svenska</p>
-      </div>
-      <div class="flag-padding">
-        <%= image_tag "british-flag.png", class: "flag" %>
-        <p class="flag-active">English</p>
-      </div>
+      <%= link_to personal_path, class: "flag-padding" do %>
+        <%= image_tag 'swedish-flag.png', class: "flag"%>
+        <p class="flag-text">Svenska</p>
+      <% end %>
+      <%= link_to staff_path, class: "flag-padding" do %>
+        <%= image_tag 'british-flag.png', class: "flag"%>
+        <p class="flag-text flag-active">English</p>
+      <% end %>
     </div>
     <div class="container-yellow">
       <h1>CONSULAR STAFF</h1>
@@ -22,7 +22,7 @@
           <p>David Hunter is the Honorary Swedish Consul in Glasgow. He is a businessman who runs his own company, the international consultancy Hunter Advisers. David has close connections with Sweden. He lives in Glasgow with his wife, who is Swedish.</p>
         </div>
       </div>
-      <div class="staff-member" style="margin-bottom: 40px;">
+      <div class="staff-member staff-member2">
         <div>
         <%= image_tag "mairi.png", class: "staff-photo" %>
         </div>
@@ -41,22 +41,22 @@
   <div class="container-xs">
     <div class="container-yellow">
       <div class="language">
-        <div class="flag-padding-xs">
-          <%= image_tag "swedish-flag.png", class: "flag" %>
-          <p>Svenska</p>
-        </div>
-        <div class="flag-padding-xs">
-          <%= image_tag "british-flag.png", class: "flag" %>
-          <p class="flag-active">English</p>
-        </div>
+          <%= link_to personal_path, class: "flag-padding-xs" do %>
+            <%= image_tag 'swedish-flag.png', class: "flag"%>
+            <p class="flag-text">Svenska</p>
+          <% end %>
+          <%= link_to staff_path, class: "flag-padding-xs" do %>
+            <%= image_tag 'british-flag.png', class: "flag"%>
+            <p class="flag-text flag-active">English</p>
+          <% end %>
       </div>
-      <h1 style="padding-bottom: 24px; margin-botton: 32px;">CONSULAR STAFF</h1>
-      <div style="text-align: center; padding-top: 32px;">
+      <h1 class="consular-title-sm">CONSULAR STAFF</h1>
+      <div class="staff-member1-sm">
         <h2>DAVID HUNTER</h2>
         <%= image_tag "david.png", class: "staff-photo-sm" %>
       </div>
       <p>David Hunter is the Honorary Swedish Consul in Glasgow. He is a businessman who runs his own company, the international consultancy Hunter Advisers. David has close connections with Sweden. He lives in Glasgow with his wife, who is Swedish.</p>
-      <div style="text-align: center; padding-top: 32px;">
+      <div class="staff-member2-sm">
         <h2>MAIRI MURRAY</h2>
         <%= image_tag "mairi.png", class: "staff-photo-sm" %>
       </div>

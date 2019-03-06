@@ -1,0 +1,50 @@
+<div class="wrapper hidden-xs">
+  <%= render "components/navbar-sw.html" %>
+  <div class="container">
+    <div class="language">
+      <%= link_to startsida_path, class: "flag-padding" do %>
+        <%= image_tag 'swedish-flag.png', class: "flag"%>
+        <p class="flag-text flag-active">Svenska</p>
+      <% end %>
+      <%= link_to root_path, class: "flag-padding" do %>
+        <%= image_tag 'british-flag.png', class: "flag"%>
+        <p class="flag-text">English</p>
+      <% end %>
+    </div>
+    <div class="container-yellow">
+      <h1>VÄLKOMMEN!</h1>
+      <p>Välkommen till svenska konsulatets hemsida – Glasgow.</p>
+      <p>Vi utför konsulära tjänster och hjälper svenska medborgare, som är besökare eller är tillfälligt bosatta i Glasgow, sydvästra Skottland och i Dumfries och Galloway.</p>
+      <p>Honorärkonsul i Glasgow är David Hunter. Vår konsulära assistent är Mairi Murray.</p>
+      <p>Kontoret ligger i centrala Glasgow och våra öppettider är måndag till fredag kl. 9.00 till 17.00.</p>
+      <p>Ring och beställ besökstid.</p>
+    </div>
+  </div>
+</div>
+
+<div class="visible-xs">
+  <%= render "components/navbar-sw.html" %>
+  <div class="container-xs">
+    <div class="container-yellow">
+      <div class="language">
+        <%= link_to startsida_path, class: "flag-padding-xs" do %>
+          <%= image_tag 'swedish-flag.png', class: "flag"%>
+          <p class="flag-text flag-active">Svenska</p>
+        <% end %>
+        <%= link_to root_path, class: "flag-padding-xs" do %>
+          <%= image_tag 'british-flag.png', class: "flag"%>
+          <p class="flag-text">English</p>
+        <% end %>
+      </div>
+      <h1>VÄLKOMMEN!</h1>
+      <p>Välkommen till svenska konsulatets hemsida – Glasgow.</p>
+      <p>Vi utför konsulära tjänster och hjälper svenska medborgare, som är besökare eller är tillfälligt bosatta i Glasgow, sydvästra Skottland och i Dumfries och Galloway.</p>
+      <p>Honorärkonsul i Glasgow är David Hunter. Vår konsulära assistent är Mairi Murray.</p>
+      <p>Kontoret ligger i centrala Glasgow och våra öppettider är måndag till fredag kl. 9.00 till 17.00.</p>
+      <p>Ring och beställ besökstid.</p>
+    </div>
+  </div>
+</div>
+<div class="visible-xs">
+  <%= render "components/footer-sw.html" %>
+</div>

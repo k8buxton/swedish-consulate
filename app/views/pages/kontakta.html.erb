@@ -1,32 +1,32 @@
 <div class="wrapper hidden-xs">
-  <%= render "components/navbar.html" %>
+  <%= render "components/navbar-sw.html" %>
   <div class="container">
     <div class="language">
       <%= link_to kontakta_path, class: "flag-padding" do %>
         <%= image_tag 'swedish-flag.png', class: "flag"%>
-        <p class="flag-text">Svenska</p>
+        <p class="flag-text flag-active">Svenska</p>
       <% end %>
       <%= link_to contact_path, class: "flag-padding" do %>
         <%= image_tag 'british-flag.png', class: "flag"%>
-        <p class="flag-text flag-active">English</p>
+        <p class="flag-text">English</p>
       <% end %>
     </div>
     <div class="container-yellow">
       <div class="contact-flex">
         <div>
-          <h1>CONTACT</h1>
+          <h1>KONTAKTA</h1>
           <div class="address">
-            <h3 class="address-margin-top">CONSULATE OF SWEDEN</h3>
+            <h3 class="address-margin-top">SVERIGES KONSULAT</h3>
             <h3>185 ST VINCENT STREET</h3>
             <h3>GLASGOW</h3>
             <h3 class="address-margin-bottom">G2 5QD</h3>
           </div>
-          <p class="short-line contact-margin">Consul: Mr David Hunter</p>
-          <p class="short-line">Consular Assistant: Ms Mairi Murray</p>
+          <p class="short-line contact-margin">Konsul: Mr David Hunter</p>
+          <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
           <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
           <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
-          <p class="short-line contact-margin">Opening Hours: By appointment.</p>
-          <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">EMERGENCIES</a>.</p>
+          <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
+          <p class="short-line">Efter kontorstid se <a href="nodsituationer" class="passports-link">NÖDSITUATIONER</a>.</p>
         </div>
         <%= render "components/map.html" %>
       </div>
@@ -35,32 +35,32 @@
 </div>
 
 <div class="visible-xs">
-  <%= render "components/navbar.html" %>
+  <%= render "components/navbar-sw.html" %>
   <div class="container-xs">
     <div class="container-yellow">
       <div class="language">
-          <%= link_to kontakta_path, class: "flag-padding-xs" do %>
-            <%= image_tag 'swedish-flag.png', class: "flag"%>
-            <p class="flag-text">Svenska</p>
-          <% end %>
-          <%= link_to contact_path, class: "flag-padding-xs" do %>
-            <%= image_tag 'british-flag.png', class: "flag"%>
-            <p class="flag-text flag-active">English</p>
-          <% end %>
+        <%= link_to kontakta_path, class: "flag-padding-xs" do %>
+          <%= image_tag 'swedish-flag.png', class: "flag"%>
+          <p class="flag-text flag-active">Svenska</p>
+        <% end %>
+        <%= link_to contact_path, class: "flag-padding-xs" do %>
+          <%= image_tag 'british-flag.png', class: "flag"%>
+          <p class="flag-text">English</p>
+        <% end %>
       </div>
-      <h1>CONTACT</h1>
+      <h1>KONTAKTA</h1>
       <div class="address-sm">
-        <h3>CONSULATE OF SWEDEN</h3>
+        <h3>SVERIGES KONSULAT</h3>
         <h3>185 ST VINCENT STREET</h3>
         <h3>GLASGOW</h3>
         <h3>G2 5QD</h3>
       </div>
-      <p class="short-line contact-margin">Consul: Mr David Hunter</p>
-      <p class="short-line">Consular Assistant: Ms Mairi Murray</p>
+      <p class="short-line contact-margin">Konsul: Mr David Hunter</p>
+      <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
       <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
       <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
-      <p class="short-line contact-margin">Opening Hours: By appointment.</p>
-      <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">EMERGENCIES</a>.</p>
+      <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
+      <p class="short-line">Efter kontorstid se <a href="nodsituationer" class="passports-link">NÖDSITUATIONER</a>.</p>
       <div style="margin: 64px 0px; text-align: center;">
         <%= image_tag 'map.png'%>
       </div>
@@ -68,6 +68,6 @@
   </div>
 </div>
 <div class="visible-xs">
-  <%= render "components/footer.html" %>
+  <%= render "components/footer-sw.html" %>
 </div>
 
