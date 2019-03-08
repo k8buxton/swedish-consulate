@@ -12,8 +12,8 @@
       <% end %>
     </div>
     <div class="container-yellow">
-      <div class="contact-flex">
-        <div>
+      <div class="contact-flex hidden-sm hidden-md">
+        <div style="margin-right: 40px;">
           <h1>KONTAKTA</h1>
           <div class="address">
             <h3 class="address-margin-top">SVERIGES KONSULAT</h3>
@@ -21,14 +21,35 @@
             <h3>GLASGOW</h3>
             <h3 class="address-margin-bottom">G2 5QD</h3>
           </div>
-          <p class="short-line contact-margin">Konsul: Mr David Hunter</p>
+          <p class="short-line contact-margin padding-top-contact">Konsul: Mr David Hunter</p>
+          <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
+          <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
+          <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
+          <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
+          <p class="short-line">Efter kontorstid se <a href="emergencies" class="passports-link">NÖDSITUATIONER</a>.</p>
+        </div>
+        <div class="contact-margin-lg">
+        <%= render "components/map.html" %>
+        </div>
+      </div>
+
+      <div class="visible-sm visible-md">
+        <h1>KONTAKTA</h1>
+        <div class="address-sm">
+          <h3>SVERIGES KONSULAT</h3>
+          <h3>185 ST VINCENT STREET</h3>
+          <h3>GLASGOW</h3>
+          <h3>G2 5QD</h3>
+          <p class="short-line contact-margin padding-top-contact">Konsul: Mr David Hunter</p>
           <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
           <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
           <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
           <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
           <p class="short-line">Efter kontorstid se <a href="nodsituationer" class="passports-link">NÖDSITUATIONER</a>.</p>
         </div>
+      <div class="contact-margin-xs-sm-md">
         <%= render "components/map.html" %>
+      </div>
       </div>
     </div>
   </div>
@@ -54,15 +75,15 @@
         <h3>185 ST VINCENT STREET</h3>
         <h3>GLASGOW</h3>
         <h3>G2 5QD</h3>
+        <p class="short-line contact-margin padding-top-contact">Konsul: Mr David Hunter</p>
+        <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
+        <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
+        <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
+        <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
+        <p class="short-line">Efter kontorstid se <a href="nodsituationer" class="passports-link">NÖDSITUATIONER</a>.</p>
       </div>
-      <p class="short-line contact-margin">Konsul: Mr David Hunter</p>
-      <p class="short-line">Konsulär Assistent: Ms Mairi Murray</p>
-      <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
-      <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
-      <p class="short-line contact-margin">Öppettider: Tidsbeställning.</p>
-      <p class="short-line">Efter kontorstid se <a href="nodsituationer" class="passports-link">NÖDSITUATIONER</a>.</p>
-      <div style="margin: 64px 0px; text-align: center;">
-        <%= image_tag 'map.png'%>
+      <div class="contact-margin-xs-sm-md">
+        <%= render "components/map.html" %>
       </div>
     </div>
   </div>
