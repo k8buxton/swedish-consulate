@@ -12,7 +12,9 @@
       <% end %>
     </div>
     <div class="container-yellow">
-      <div class="contact-flex">
+
+
+      <div class="contact-flex hidden-sm hidden-md">
         <div>
           <h1>CONTACT</h1>
           <div class="address">
@@ -28,8 +30,31 @@
           <p class="short-line contact-margin">Opening Hours: By appointment.</p>
           <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">EMERGENCIES</a>.</p>
         </div>
+        <div style="margin: 160px 0px 40px 48px;">
         <%= render "components/map.html" %>
+        </div>
       </div>
+
+      <div class="visible-sm visible-md">
+      <h1>CONTACT</h1>
+      <div class="address-sm">
+        <h3>CONSULATE OF SWEDEN</h3>
+        <h3>185 ST VINCENT STREET</h3>
+        <h3>GLASGOW</h3>
+        <h3>G2 5QD</h3>
+      </div>
+      <p class="short-line contact-margin">Consul: Mr David Hunter</p>
+      <p class="short-line">Consular Assistant: Ms Mairi Murray</p>
+      <p class="short-line contact-margin">T: +44 (0)141 204 4041</p>
+      <p class="short-line">E:&nbsp<a class="color-email" href="mailto:consul@swedenglasgow.com">consul@swedenglasgow.com</a></p>
+      <p class="short-line contact-margin">Opening Hours: By appointment.</p>
+      <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">EMERGENCIES</a>.</p>
+      <div style="margin: 64px 0px; text-align: center;">
+      </div>
+      <%= render "components/map.html" %>
+      </div>
+
+
     </div>
   </div>
 </div>
@@ -62,8 +87,8 @@
       <p class="short-line contact-margin">Opening Hours: By appointment.</p>
       <p class="short-line">For out-of-hours contact details see <a href="emergencies" class="passports-link">EMERGENCIES</a>.</p>
       <div style="margin: 64px 0px; text-align: center;">
-        <%= image_tag 'map.png'%>
       </div>
+      <%= render "components/map.html" %>
     </div>
   </div>
 </div>
