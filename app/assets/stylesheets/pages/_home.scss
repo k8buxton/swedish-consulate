@@ -3,7 +3,7 @@
 }
 .container-xs {
   padding: 20px;
-  background-image: image-url("storbritannien.png");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305882/storbritannien.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,7 @@
   justify-content: flex-end;
 }
 .container {
-  background-image: image-url("storbritannien.png");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305882/storbritannien.png");
   background-size: cover;
   // remove or add the below, changes where image sits
   background-attachment: fixed;
