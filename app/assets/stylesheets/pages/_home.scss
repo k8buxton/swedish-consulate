@@ -3,7 +3,7 @@
 }
 .container-xs {
   padding: 20px;
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305882/storbritannien.png");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554200953/alexander_hall-rural_home-6992.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -13,11 +13,12 @@
   justify-content: flex-end;
 }
 .container {
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305882/storbritannien.png");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554200953/alexander_hall-rural_home-6992.jpg");
   background-size: cover;
   // remove or add the below, changes where image sits
   background-attachment: fixed;
-  padding: 48px;
+  // padding: 48px;
+  padding: 80px 80px 120px 80px;
   flex-grow: 1;
 }
 .container-yellow {
@@ -91,12 +92,20 @@
 .flag-text {
   color: #333333;
 }
+.flag-text-white {
+  color: white;
+}
 .flag-active {
   text-decoration: underline;
 }
 .flag-padding:hover .flag-text {
   color: #095381;
 }
+.flag-padding:hover .flag-text-white {
+  color: #095381;
+  text-decoration: underline;
+}
+
 .flag-padding-xs:hover .flag-text {
   color: #095381;
 }
