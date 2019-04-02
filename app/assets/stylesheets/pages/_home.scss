@@ -1,5 +1,20 @@
 .wrapper {
   display: flex;
+  position: relative;
+}
+.wrapper-credit {
+  position: relative;
+}
+.credit {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'sweden_sansregular';
+  line-height: 5px;
+  font-weight: 100;
 }
 .container-xs {
   padding: 20px;

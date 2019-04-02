@@ -11,12 +11,12 @@ p {
 h1 {
   // font-weight: bold;
   font-family: 'sweden_sansbold';
-  @media (min-width: 500px) {
+  @media (min-width: 577px) {
     font-size: 56px;
     line-height: 75px;
     padding-bottom: 16px;
 }
-  @media (max-width: 500px) {
+  @media (max-width: 576px) {
     font-size: 36px;
     line-height: 56px;
   }
