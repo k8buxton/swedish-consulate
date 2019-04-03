@@ -3,7 +3,7 @@
   <p class="credit">Photo credit: Alexander Hall/imagebank.sweden.se</p>
   <div class="container">
     <div class="language">
-      <%= link_to nodsituationer_path, class: "flag-padding" do %>
+      <%= link_to akut_hjalp_path, class: "flag-padding" do %>
         <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/swedish-flag.png",:class=>"flag") %>
         <p class="flag-text-white">Svenska</p>
       <% end %>
@@ -14,7 +14,7 @@
     </div>
     <div class="container-yellow">
       <h1>EMERGENCIES</h1>
-      <p>We can assist Swedish nationals who find themselves in difficulty while in Glasgow or most of the rest of Scotland.</p>
+      <p>We can assist Swedish nationals who find themselves in difficulty while in Glasgow or in the West of Scotland.</p>
       <p>If you are seriously ill or injured, are the victim of a crime, or face other difficult personal circumstances then we can provide help and advice.</p>
       <p>For all normal consular matters call: +44 (0)141 204 4041. If appropriate please leave a message.</p>
       <p class="short-line">Strictly in&nbsp<span class="strong-text">emergencies only</span>&nbspcall David Hunter, Consul: +44 (0)7767 432 203.</p>
@@ -27,9 +27,10 @@
 <div class="visible-xs">
   <%= render "components/navbar.html" %>
   <div class="container-xs">
+    <p class="credit">Photo credit: Alexander Hall/imagebank.sweden.se</p>
     <div class="container-yellow">
       <div class="language">
-          <%= link_to nodsituationer_path, class: "flag-padding-xs" do %>
+          <%= link_to akut_hjalp_path, class: "flag-padding-xs" do %>
             <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/swedish-flag.png",:class=>"flag") %>
             <p class="flag-text">Svenska</p>
           <% end %>
@@ -39,7 +40,7 @@
           <% end %>
       </div>
       <h1>EMERGENCIES</h1>
-      <p>We can assist Swedish nationals who find themselves in difficulty while in Glasgow or most of the rest of Scotland.</p>
+      <p>We can assist Swedish nationals who find themselves in difficulty while in Glasgow or in the West of Scotland.</p>
       <p>If you are seriously ill or injured, are the victim of a crime, or face other difficult personal circumstances then we can provide help and advice.</p>
       <p>For all normal consular matters call: +44 (0)141 204 4041. If appropriate please leave a message.</p>
       <p class="short-line">Strictly in&nbsp<span class="strong-text">emergencies only</span>&nbspcall David Hunter, Consul: +44 (0)7767 432 203.</p>

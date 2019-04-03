@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'links', to: 'pages#links', as: 'links'
   get 'startsida', to: 'pages#startsida', as: 'startsida'
   get 'personal', to: 'pages#personal', as: 'personal'
-  get 'nodsituationer', to: 'pages#nodsituationer', as: 'nodsituationer'
+  get 'akut_hjalp', to: 'pages#akut_hjalp', as: 'akut_hjalp'
   get 'pass', to: 'pages#pass', as: 'pass'
   get 'kontakta', to: 'pages#kontakta', as: 'kontakta'
   get 'lankar', to: 'pages#lankar', as: 'lankar'

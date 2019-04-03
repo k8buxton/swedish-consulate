@@ -2,13 +2,10 @@
   display: flex;
   position: relative;
 }
-.wrapper-credit {
-  position: relative;
-}
 .credit {
   position: absolute;
   bottom: 0px;
-  right: 15px;
+  right: 10px;
   color: white;
   font-size: 10px;
   letter-spacing: 1px;
@@ -17,11 +14,12 @@
   font-weight: 100;
 }
 .container-xs {
-  padding: 20px;
+  padding: 20px 20px 56px 20px;
   background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554200953/alexander_hall-rural_home-6992.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
 .language {
   display: flex;

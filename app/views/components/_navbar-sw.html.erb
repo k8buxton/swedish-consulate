@@ -8,7 +8,7 @@
     <ul class="no-bullets links">
       <li><p class="link"><%= link_to "STARTSIDA", startsida_path, class: cp(startsida_path) %></p></li>
       <li><p class="link"><%= link_to "PERSONAL", personal_path, class: cp(personal_path)  %></p></li>
-      <li><p class="link"><%= link_to "NÖDSITUATIONER", nodsituationer_path, class: cp(nodsituationer_path) %></p></li>
+      <li><p class="link"><%= link_to "AKUT HJÄLP", akut_hjalp_path, class: cp(akut_hjalp_path) %></p></li>
       <li><p class="link"><%= link_to "PASS", pass_path, class: cp(pass_path) %></p></li>
       <li><p class="link"><%= link_to "KONTAKTA OSS", kontakta_path, class: cp(kontakta_path) %></p></li>
       <li><p class="link"><%= link_to "LÄNKAR", lankar_path, class: cp(lankar_path) %></p></li>
@@ -35,9 +35,9 @@
       <div class="dropdown">
         <i class="fas fa-bars cursor" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"></i>
         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-          <li><%= link_to 'STARTSIDA', root_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'STARTSIDA', startsida_path, class: "dropdown-item" %></li>
           <li><%= link_to 'PERSONAL', personal_path, class: "dropdown-item" %></li>
-          <li><%= link_to 'NÖDSITUATIONER', nodsituationer_path, class: "dropdown-item" %></li>
+          <li><%= link_to 'AKUT HJÄLP', akut_hjalp_path, class: "dropdown-item" %></li>
           <li><%= link_to 'PASS', pass_path, class: "dropdown-item" %></li>
           <li><%= link_to 'KONTAKTA OSS', kontakta_path, class: "dropdown-item" %></li>
           <li><%= link_to 'LÄNKAR', lankar_path, class: "dropdown-item" %></li>
