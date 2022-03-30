@@ -7,4 +7,13 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
+$(".fa-bars").click(function () {
+  $(".dropdown-menu-right").toggle();
+});
+$(document).click(function (event) {
+  var clickover = $(event.target);
+  var _opened = $('.dropdown-menu-right').css('display') == 'block';
+  if (_opened === true && !clickover.hasClass("fa-bars")) {
+    $(".dropdown-menu-right").hide();
+  }
+});
