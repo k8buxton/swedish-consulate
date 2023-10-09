@@ -1,16 +1,17 @@
 source 'https://rubygems.org'
-ruby '2.4.5'
+ruby '3.2.2'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma'
-gem 'rails', '5.2.1'
+gem 'rails', '~> 6.0'
 gem 'redis'
+gem 'ruby3-backward-compatibility'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3'
-gem 'font-awesome-sass', '~> 5.5.0'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'font-awesome-sass', '~> 6.4.2'
 gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'

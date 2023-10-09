@@ -1,66 +1,22 @@
 <div class="wrapper hidden-xs">
-  <%= render "components/navbar.html" %>
   <p class="credit">Photo credit: Alexander Hall/imagebank.sweden.se</p>
   <div class="container">
-    <div class="language">
-      <%= link_to startsida_path, class: "flag-padding" do %>
-        <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/swedish-flag.png",:class=>"flag") %>
-        <p class="flag-text-white">Svenska</p>
-      <% end %>
-      <%= link_to root_path, class: "flag-padding" do %>
-        <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/british-flag.png",:class=>"flag") %>
-        <p class="flag-text-white flag-active">English</p>
-      <% end %>
-    </div>
     <div class="container-yellow">
-      <h1>WELCOME!</h1>
-      <div style="border: black 3px solid; padding: 0 20px">
-        <h2 style="margin: 16px 0">PASSPORT RENEWAL</h2>
-        <p style="margin: 16px 0">The Consulate does not renew passports. Please see the Passports page on this website.
-          It can be difficult to get a renewal appointment in London or Sweden but we cannot assist with this.</p>
+      <div style="border: black 3px solid; padding: 0 20px;">
+        <p style="margin: 16px 0">The Glasgow Swedish Consulate has now closed. All business has transferred to the <a href="https://swedishconsulate.eu/" target="_blank" class="external-link external-link-size">Swedish Consulate in Edinburgh</a>. Please see the <a href="https://www.swedenabroad.se/en/embassies/united-kingdom-london/" target="_blank" class="external-link external-link-size">website of the Swedish Embassy in London</a> for further information and any updates.</p>
       </div>
-      <div style="border: black 3px solid; padding: 0 20px; margin-top: 20px;">
-        <h2 style="margin: 16px 0">VISAS</h2>
-        <p style="margin: 16px 0">Visas are issued by <a href="https://www.vfsglobal.com/" target="_blank" class="external-link external-link-size">VFS</a> in Edinburgh. Please see the Visa link in the Passports page on this website. The Consulate cannot assist with this process.</p>
-      </div>
-      <p>This is the website of the Swedish Consul in Glasgow.</p>
-      <p>We provide consular services for Swedish nationals who are visitors or residents in Glasgow and the West of Scotland.</p>
-      <p>Our office is in the centre of Glasgow and is open on varying days by appointment only from 9.30 to 17.30.​</p>
     </div>
   </div>
 </div>
 
 <div class="visible-xs">
-  <%= render "components/navbar.html" %>
   <div class="container-xs">
     <p class="credit">Photo credit: Alexander Hall/imagebank.sweden.se</p>
     <div class="container-yellow">
-      <div class="language">
-        <%= link_to startsida_path, class: "flag-padding-xs" do %>
-          <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/swedish-flag.png",:class=>"flag") %>
-          <p class="flag-text">Svenska</p>
-        <% end %>
-        <%= link_to root_path, class: "flag-padding-xs" do %>
-          <%= image_tag("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552305881/british-flag.png",:class=>"flag") %>
-          <p class="flag-text flag-active">English</p>
-        <% end %>
-      </div>
-      <h1>WELCOME!</h1>
       <div style="border: black 3px solid; padding: 0 20px">
-        <h2 style="margin: 16px 0">PASSPORT RENEWAL</h2>
-        <p style="margin: 16px 0">The Consulate does not renew passports. Please see the Passports page on this website.
-          It can be difficult to get a renewal appointment in London or Sweden but we cannot assist with this.</p>
+        <p style="margin: 16px 0">The Glasgow Swedish Consulate has now closed. All business has transferred to the <a href="https://swedishconsulate.eu/" target="_blank" class="external-link external-link-size">Swedish Consulate in Edinburgh</a>. Please see the <a href="https://www.swedenabroad.se/en/embassies/united-kingdom-london/" target="_blank" class="external-link external-link-size">website of the Swedish Embassy in London</a> for further information and any updates.</p>
       </div>
-      <div style="border: black 3px solid; padding: 0 20px; margin-top: 20px;">
-        <h2 style="margin: 16px 0">VISAS</h2>
-        <p style="margin: 16px 0">Visas are issued by <a href="https://www.vfsglobal.com/" target="_blank" class="external-link external-link-size">VFS</a> in Edinburgh. Please see the Visa link in the Passports page on this website. The Consulate cannot assist with this process.</p>
-      </div>
-      <p>This is the website of the Swedish Consul in Glasgow.</p>
-      <p>We provide consular services for Swedish nationals who are visitors or residents in Glasgow and the West of Scotland.</p>
-      <p>Our office is in the centre of Glasgow and is open on varying days by appointment only from 9.30 to 17.30.​</p>
+
     </div>
   </div>
-</div>
-<div class="visible-xs">
-  <%= render "components/footer.html" %>
 </div>
